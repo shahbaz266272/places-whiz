@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "placequest",
-    "slug": "placequest",
-    "version": "1.0.0",
+    "name": "Places Whiz",
+    "slug": "places-whiz",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -11,11 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.shahbaz266272.placeswhiz"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +24,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ad35a2c3-7c49-4aae-82b0-5f1e7f2e6283"
+      }
     }
   }
 }
